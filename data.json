@@ -15,8 +15,15 @@
   "type_var" : "CLICK_TIME",
   "op": "ADD",
   "value" : 20
+},
+{
+  "tag" : "_test3",
+  "price" : 100,
+  "type" : "SKILL",
+  "type_var" : "NONE",
+  "op": "NONE",
+  "value" : 20
 }
-
 
 ]
 
