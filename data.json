@@ -1,28 +1,31 @@
 {
 "data" : [
 {
-  "tag" : "_test",
+  "tag" : "_SACOCHE",
+  "description" : "La sachoche pour vendre des 10 balles",
   "price" : 10,
   "type" : "BUFFER",
   "type_var" : "CLICK_AMOUNT",
-  "op" : "MULTIPLY",
-  "value" : 0.05
+  "op" : "ADD",
+  "value" : 5
 },
 {
-  "tag" : "_test2",
-  "price" : 100,
-  "type" : "BUFFER",
-  "type_var" : "CLICK_TIME",
-  "op": "ADD",
-  "value" : 20
-},
-{
-  "tag" : "_test3",
-  "price" : 100,
+  "tag" : "_MATRAQUE",
+  "description" : "Pour raquetter la concu",
+  "price" : 10000,
   "type" : "SKILL",
   "type_var" : "NONE",
   "op": "NONE",
-  "value" : 20
+  "value" : -1
+},
+{
+  "tag" : "_ACRE",
+  "description" : "Baisse les impôts de 5%",
+  "price" : 750000,
+  "type" : "BUFFER",
+  "type_var" : "IMPOSITION",
+  "op": "MULTIPLY",
+  "value" : 0.05
 }
 ]
 }
