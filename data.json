@@ -1,4 +1,6 @@
 {
+"data" : [
+{
   "tag" : "_test",
   "price" : 10,
   "type" : "BUFFER",
@@ -22,4 +24,5 @@
   "op": "NONE",
   "value" : 20
 }
-
+]
+}
