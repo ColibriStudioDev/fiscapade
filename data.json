@@ -1,0 +1,21 @@
+{
+"data" : [
+{
+  "tag" = "_test",
+  "price" = 10,
+  "type" = "BUFFER",
+  "operator" = "MULTIPLY",
+  "value" = 0.05
+},
+{
+  "tag" = "_test2",
+  "price" = 100,
+  "type" = "BUFFER",
+  "operator" = "ADD",
+  "value" = 20
+}
+
+
+]
+
+}
