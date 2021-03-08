@@ -5,7 +5,7 @@
   "price" : 10,
   "type" : "BUFFER",
   "type_var" : "CLICK_AMOUNT",
-  "operator" : "MULTIPLY",
+  "op" : "MULTIPLY",
   "value" : 0.05
 },
 {
@@ -13,7 +13,7 @@
   "price" : 100,
   "type" : "BUFFER",
   "type_var" : "CLICK_TIME",
-  "operator": "ADD",
+  "op": "ADD",
   "value" : 20
 }
 
