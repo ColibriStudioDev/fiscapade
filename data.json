@@ -27,5 +27,14 @@
   "op": "MULTIPLY",
   "value" : 0.05
 }
+{
+  "tag" : "_TRIVIALITE",
+  "description" : "blablabla",
+  "price" : 750000,
+  "type" : "BUFFER",
+  "type_var" : "IMPOSITION",
+  "op": "MULTIPLY",
+  "value" : 0.05
+}
 ]
 }
