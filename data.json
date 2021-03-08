@@ -1,6 +1,4 @@
 {
-"data" : [
-{
   "tag" : "_test",
   "price" : 10,
   "type" : "BUFFER",
@@ -25,6 +23,3 @@
   "value" : 20
 }
 
-]
-
-}
