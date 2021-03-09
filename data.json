@@ -1,6 +1,15 @@
 {
 "data" : [
 {
+    "tag" : "_POULETCRUD",
+    "description" : "Le bon poulet crud du crous à 1 euro, merci l'état providence.",
+    "price" : 2,
+    "type" : "BUFFER",
+    "type_var" : "CLICK_AMOUNT",
+    "op" : "ADD",
+    "value" : 1
+},
+{
   "tag" : "_SACOCHE",
   "description" : "La sachoche pour vendre des 10 balles",
   "price" : 10,
@@ -8,6 +17,15 @@
   "type_var" : "CLICK_AMOUNT",
   "op" : "ADD",
   "value" : 5
+},
+{
+  "tag" : "_RITUEL",
+  "description" : "La bonne bierasse.",
+  "price" : 200,
+  "type" : "BUFFER",
+  "type_var" : "DELIVERY_TIME",
+  "op": "MULTIPLY",
+  "value" : 0.05
 },
 {
   "tag" : "_MATRAQUE",
@@ -19,26 +37,26 @@
   "value" : -1
 },
 {
-  "tag" : "_ACRE",
-  "description" : "Baisse les impôts de 5%",
-  "price" : 750000,
-  "type" : "BUFFER",
-  "type_var" : "IMPOSITION",
+  "tag" : "_VELO",
+  "description" : "Un vélo electrique pour allé vite, vroum",
+  "price" : 500,
+  "type" : "SKILL",
+  "type_var" : "DELIVERY_TIME",
   "op": "MULTIPLY",
   "value" : 0.05
 },
 {
-  "tag" : "_SANSPAPIER",
-  "description" : "blablabla",
-  "price" : 750000,
-  "type" : "BUFFER",
-  "type_var" : "IMPOSITION",
-  "op": "MULTIPLY",
-  "value" : 0.05
-}
- {
-  "tag" : "_MANIFESTANT",
-  "description" : "blablabla",
+  "tag" : "_SACUBEREAT",
+  "description" : "Le super sac uber eat pour peter la classe",
+  "price" : 1750,
+  "type" : "SKILL",
+  "type_var" : "CLICK_AMOUNT",
+  "op": "ADD",
+  "value" : 10
+},
+{
+  "tag" : "_ACRE",
+  "description" : "Baisse les impôts de 5%",
   "price" : 750000,
   "type" : "BUFFER",
   "type_var" : "IMPOSITION",
