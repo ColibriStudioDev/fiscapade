@@ -25,7 +25,7 @@
   "type" : "BUFFER",
   "type_var" : "DELIVERY_TIME",
   "op": "MULTIPLY",
-  "value" : 0.05
+  "value" : 1.05
 },
 {
   "tag" : "_MATRAQUE",
@@ -38,18 +38,27 @@
 },
 {
   "tag" : "_VELO",
-  "description" : "Un vélo electrique pour allé vite, vroum",
+  "description" : "Un vélo electrique pour aller vite, vroum",
   "price" : 500,
   "type" : "SKILL",
   "type_var" : "DELIVERY_TIME",
   "op": "MULTIPLY",
-  "value" : 0.05
+  "value" : 1.05
 },
 {
   "tag" : "_SACUBEREAT",
   "description" : "Le super sac uber eat pour peter la classe",
   "price" : 1750,
-  "type" : "SKILL",
+  "type" : "BUFFER",
+  "type_var" : "DELIVERY_TIME",
+  "op": "MULTIPLY",
+  "value" : 1.1
+},
+{
+  "tag" : "_GUETTEUR",
+  "description" : "Très utile, ils font même le ménage.",
+  "price" : 1000,
+  "type" : "BUFFER",
   "type_var" : "CLICK_AMOUNT",
   "op": "ADD",
   "value" : 10
@@ -61,7 +70,7 @@
   "type" : "BUFFER",
   "type_var" : "IMPOSITION",
   "op": "MULTIPLY",
-  "value" : 0.05
+  "value" : 0.95
 }
 ]
 }
