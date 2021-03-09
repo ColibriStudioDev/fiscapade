@@ -1,12 +1,14 @@
 Comment créer un nouvelle objet :
     {
     "tag" : "_POULETCRUD",
+    "name" : "Sandwich poulet crudité",
     "description" : "Le bon poulet crud du crous à 1 euro, merci l'état providence.",
     "price" : 2,
     "type" : "BUFFER",
     "type_var" : "CLICK_AMOUNT",
     "op" : "ADD",
-    "value" : 1
+    "value" : 1,
+    "maxLevel" : 5
     },
 
 -> Rajouter deux accolades : elles représentent un objet, ici une amélioration.
