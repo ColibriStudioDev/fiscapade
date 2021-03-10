@@ -49,7 +49,7 @@
   "name" : "Le biike",
   "description" : "Un vélo electrique pour aller vite, vroum",
   "price" : 500,
-  "type" : "SKILL",
+  "type" : "BUFFER",
   "type_var" : "DELIVERY_TIME",
   "op": "MULTIPLY",
   "value" : 1.05,
@@ -83,19 +83,19 @@
   "description" : "Débloque le placement en bourses, Mise à 100$",
   "price" : 5000,
   "type" : "SKILL",
-  "type_var" : "NONE",
-  "op": "NONE",
-  "value" : -1,
-  "maxLevel" : 1
+  "type_skill" : "STOCK_MARKET",
+  "duration": -1,
+  "cooldown" : 30,
+  "value" : 10
 },
 {
   "tag" : "_SURVERT",
   "name" : "Jogging/Survert",
   "description" : "Empêche de te faire raquetter",
   "price" : 25000,
-  "type" : "SKILL",
-  "type_var" : "NONE",
-  "op": "NONE",
+  "type" : "BUFFER",
+  "type_var" : "DELIVERY_TIME",
+  "op": "MULTIPLY",
   "value" : -1,
   "maxLevel" : 1
 },
@@ -105,10 +105,10 @@
   "description" : "Permet de braquer des banques",
   "price" : 30000,
   "type" : "SKILL",
-  "type_var" : "NONE",
-  "op": "NONE",
-  "value" : -1,
-  "maxLevel" : 1
+  "type_skill" : "RACKET",
+  "duration": 10,
+  "cooldown" :40,
+  "value" : -1
 },
 {
   "tag" : "_GODINAUD",
