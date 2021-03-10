@@ -39,10 +39,10 @@
   "description" : "Pour raquetter la concu",
   "price" : 10000,
   "type" : "SKILL",
-  "type_var" : "NONE",
-  "op": "NONE",
-  "value" : -1,
-  "maxLevel" : 1
+  "type_skill" : "RACKET",
+  "duration" : 5,
+  "cooldown" : 60,
+  "value" : -1
 },
 {
   "tag" : "_VELO",
