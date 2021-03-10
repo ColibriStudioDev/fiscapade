@@ -78,6 +78,61 @@
   "maxLevel" : 5
 },
 {
+  "tag" : "_MEUGE",
+  "name" : "50 meuges",
+  "description" : "Débloque le placement en bourses, Mise à 100$",
+  "price" : 5000,
+  "type" : "SKILL",
+  "type_var" : "NONE",
+  "op": "NONE",
+  "value" : -1,
+  "maxLevel" : 1
+},
+{
+  "tag" : "_SURVERT",
+  "name" : "Jogging/Survert",
+  "description" : "Empêche de te faire raquetter",
+  "price" : 25000,
+  "type" : "SKILL",
+  "type_var" : "NONE",
+  "op": "NONE",
+  "value" : -1,
+  "maxLevel" : 1
+},
+{
+  "tag" : "_CAGOULE",
+  "name" : "Une cagoule",
+  "description" : "Permet de braquer des banques",
+  "price" : 30000,
+  "type" : "SKILL",
+  "type_var" : "NONE",
+  "op": "NONE",
+  "value" : -1,
+  "maxLevel" : 1
+},
+{
+  "tag" : "_GODINAUD",
+  "name" : "Mme Godinaud",
+  "description" : "Augmente le montant des livraisons",
+  "price" : 100000,
+  "type" : "BUFFER",
+  "type_var" : "DELIVERY_AMOUNT",
+  "op": "MULTIPLY",
+  "value" : 2,
+  "maxLevel" : 1
+},
+{
+  "tag" : "_TURBO",
+  "name" : "Un turbo pour ton vélo",
+  "description" : "Un gros turbo (aux normes) pour fuser sur ton biike",
+  "price" : 55000,
+  "type" : "BUFFER",
+  "type_var" : "CLICK_AMOUNT",
+  "op": "ADD",
+  "value" : 100,
+  "maxLevel" : 3
+},
+{
   "tag" : "_ACRE",
   "name" : "Acre",
   "description" : "Baisse les impôts de 5%",
