@@ -15,6 +15,7 @@ Comment créer un nouvelle objet :
 -> Si ce n'est pas le dernier objet, rajouter une virgule derrière la dernière accolade.
 -> Rajouter 7 variable comme l'exemple ci dessus avec exactement les même noms.
 -> tag : il doit commencer par un _ (underscore) et être en majuscule sans espace.
+-> name : Le nom, libre.
 -> description : libre
 -> price : le prix, obligatoirement un entier.
 -> type : BUFFER ou SKILL le buffer est une amélioration d'une variable, un skill est une action débloquable.
@@ -30,3 +31,4 @@ Comment créer un nouvelle objet :
     - MULTIPLY : muliplie la variable à la valeur de l'upgrade
     - SET : Assigne la variable à la valeur de l'upgrade (préférer ne pas l'utiliser)
 -> value : valeur de l'upgrade, peut être un nombre entier ou à virgule (10^-7)
+-> maxLevel : le nombre de level max que peut bénéficier l'amélioration, à chaque lvl l'effet va être appliquer une nouvelle fois.
