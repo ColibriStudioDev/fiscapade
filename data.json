@@ -67,6 +67,17 @@
   "maxLevel" : 1
 },
 {
+  "tag" : "_BEUH",
+  "name" : "Beuh magique",
+  "description" : "Dla bonne beuh magique",
+  "price" : 1200,
+  "type" : "SKILL",
+  "type_skill" : "STOCK_MARKET",
+  "duration": -1,
+  "cooldown" : 50,
+  "value" : 10
+},
+{
   "tag" : "_GUETTEUR",
   "name" : "Guetteurs",
   "description" : "Très utile, ils font même le ménage.",
@@ -86,7 +97,7 @@
   "type_skill" : "STOCK_MARKET",
   "duration": -1,
   "cooldown" : 30,
-  "value" : 10
+  "value" : 100
 },
 {
   "tag" : "_SURVERT",
