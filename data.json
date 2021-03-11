@@ -89,6 +89,17 @@
   "maxLevel" : 5
 },
 {
+  "tag" : "_SANSPAPIER",
+  "name" : "Sans papier",
+  "description" : "On comprend pas grand chose, mais ils font l'taff",
+  "price" : 1200,
+  "type" : "BUFFER",
+  "type_var" : "DELIVERY_TIME",
+  "op": "MULTIPLY",
+  "value" : 0.95,
+  "maxLevel" : 3
+},
+{
   "tag" : "_MEUGE",
   "name" : "50 meuges",
   "description" : "Du bon shit pour rentrer dans la cour des grands",
@@ -105,9 +116,9 @@
   "description" : "Empêche de te faire raquetter",
   "price" : 25000,
   "type" : "BUFFER",
-  "type_var" : "DELIVERY_TIME",
+  "type_var" : "RACKET_RATE",
   "op": "MULTIPLY",
-  "value" : -1,
+  "value" : 0.90,
   "maxLevel" : 1
 },
 {
@@ -124,12 +135,12 @@
 {
   "tag" : "_GODINAUD",
   "name" : "Mme Godinaud",
-  "description" : "Avec son cri perçant, tu iras beaucoup plus vite.",
+  "description" : "Avec son cri perçant, elle boost vos revenus.",
   "price" : 100000,
   "type" : "BUFFER",
   "type_var" : "DELIVERY_AMOUNT",
-  "op": "MULTIPLY",
-  "value" : 2,
+  "op": "ADD",
+  "value" : 300,
   "maxLevel" : 1
 },
 {
@@ -147,11 +158,22 @@
   "tag" : "_ACRE",
   "name" : "Acre",
   "description" : "Aide de l'état pour defiscaliser au maax",
-  "price" : 750000,
+  "price" : 900000,
+  "type" : "BUFFER",
+  "type_var" : "RACKET_RATE",
+  "op": "MULTIPLY",
+  "value" : 0.80,
+  "maxLevel" : 1
+},
+{
+  "tag" : "_ERREURDIM",
+  "name" : "Erreur de Dimassi",
+  "description" : "Votre camarade s'est trompé, c'est une grosse merde",
+  "price" : 1000000,
   "type" : "BUFFER",
   "type_var" : "IMPOSITION",
   "op": "MULTIPLY",
-  "value" : 0.95,
+  "value" : 0.80,
   "maxLevel" : 1
 },
 {
