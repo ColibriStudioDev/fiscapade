@@ -52,7 +52,7 @@
   "type" : "BUFFER",
   "type_var" : "DELIVERY_TIME",
   "op": "MULTIPLY",
-  "value" : 1.05,
+  "value" : 1.1,
   "maxLevel" : 1
 },
 {
@@ -91,7 +91,7 @@
 {
   "tag" : "_MEUGE",
   "name" : "50 meuges",
-  "description" : "Débloque le placement en bourses, Mise à 100$",
+  "description" : "Du bon shit pour rentrer dans la cour des grands",
   "price" : 5000,
   "type" : "SKILL",
   "type_skill" : "STOCK_MARKET",
@@ -124,7 +124,7 @@
 {
   "tag" : "_GODINAUD",
   "name" : "Mme Godinaud",
-  "description" : "Augmente le montant des livraisons",
+  "description" : "Avec son cri perçant, tu iras beaucoup plus vite.",
   "price" : 100000,
   "type" : "BUFFER",
   "type_var" : "DELIVERY_AMOUNT",
@@ -146,13 +146,25 @@
 {
   "tag" : "_ACRE",
   "name" : "Acre",
-  "description" : "Baisse les impôts de 5%",
+  "description" : "Aide de l'état pour defiscaliser au maax",
   "price" : 750000,
   "type" : "BUFFER",
   "type_var" : "IMPOSITION",
   "op": "MULTIPLY",
   "value" : 0.95,
   "maxLevel" : 1
+},
+{
+  "tag" : "_TRIVIALITE",
+  "name" : "La Trivialité de Charpentier",
+  "description" : "Faire les comptes, c'est trivial.",
+  "price" : 1000000,
+  "type" : "BUFFER",
+  "type_var" : "IMPOSITION",
+  "op": "MULTIPLY",
+  "value" : 0.80,
+  "maxLevel" : 1
 }
+
 ]
 }
