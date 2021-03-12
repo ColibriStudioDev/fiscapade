@@ -30,7 +30,7 @@
   "type" : "BUFFER",
   "type_var" : "DELIVERY_TIME",
   "op": "MULTIPLY",
-  "value" : 1.05,
+  "value" : 0.95,
   "maxLevel" : 1
 },
 {
@@ -52,7 +52,7 @@
   "type" : "BUFFER",
   "type_var" : "DELIVERY_TIME",
   "op": "MULTIPLY",
-  "value" : 1.1,
+  "value" : 0.9,
   "maxLevel" : 1
 },
 {
@@ -61,7 +61,7 @@
   "description" : "Le super sac uber eat pour peter la classe",
   "price" : 1750,
   "type" : "BUFFER",
-  "type_var" : "DELIVERY_TIME",
+  "type_var" : "DELIVERY_AMOUNT",
   "op": "MULTIPLY",
   "value" : 1.1,
   "maxLevel" : 1
