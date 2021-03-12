@@ -62,8 +62,8 @@
   "price" : 1750,
   "type" : "BUFFER",
   "type_var" : "DELIVERY_AMOUNT",
-  "op": "MULTIPLY",
-  "value" : 1.1,
+  "op": "ADD",
+  "value" : 10,
   "maxLevel" : 1
 },
 {
