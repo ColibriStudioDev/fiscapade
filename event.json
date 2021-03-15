@@ -1,6 +1,6 @@
 {
     "event_test" : {
-
+        "name" : "test",
         "description" : "this is a description",
         "type_var" : "CLICK_AMOUNT",
         "duration" : 10,
