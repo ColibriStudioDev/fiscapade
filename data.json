@@ -34,6 +34,17 @@
   "maxLevel" : 1
 },
 {
+  "tag" : "_FOURCHE",
+  "name" : "La Fourche",
+  "description" : "Utile pour peter des ragondins et des lapins",
+  "price" : 800,
+  "type" : "BUFFER",
+  "type_var" : "DELIVERY_AMOUNT",
+  "op": "ADD",
+  "value" : 50,
+  "maxLevel" : 3
+},
+{
   "tag" : "_MATRAQUE",
   "name" : "La Matraque de Theo",
   "description" : "Pour raquetter la concu",
