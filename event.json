@@ -1,10 +1,17 @@
 {
-    "event_test" : {
-        "name" : "test",
-        "description" : "this is a description",
-        "type_var" : "CLICK_AMOUNT",
-        "duration" : 10,
-        "value" : 10
+    "_BONNEREPONSE" : {
+        "name" : "Bonne réponse",
+        "description" : "Vous avez répondu correctement à une question de Dimassi, c'est très bien.",
+        "type_var" : "MONEY",
+        "duration" : -1,
+        "value" : 500
+    },
+    "_MAUVAISEREPONSE" : {
+        "name" : "Mauvaise réponse",
+        "description" : "Vous n'avez pas répondu correctement à une question de Dimassi, \n vous êtes une grosse merde.",
+        "type_var" : "MONEY",
+        "duration" : -1,
+        "value" : -500
     }
 
 
