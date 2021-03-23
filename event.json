@@ -4,15 +4,30 @@
         "description" : "Vous avez répondu correctement à une question de Dimassi, c'est très bien.",
         "type_var" : "MONEY",
         "duration" : -1,
-        "value" : 500
+        "value" : 1000
+    },
+    "_QUESTIONBIO" : {
+        "name" : "Question de Bio",
+        "description" : "Un bio pose une question, vous êtes ralentie",
+        "type_var" : "DELIVERY_TIME",
+        "duration" : 60,
+        "value" : 0.5
+    },
+    "_DESCENTE" : {
+        "name" : "Descente du Fisc",
+        "description" : "Le Fisc vous rattrape, vous payer des impôts",
+        "type_var" : "TAXE",
+        "duration" : -1,
+        "value" : -1
     },
     "_MAUVAISEREPONSE" : {
         "name" : "Mauvaise réponse",
         "description" : "Vous n'avez pas répondu correctement à une question de Dimassi, \n vous êtes une grosse merde.",
         "type_var" : "MONEY",
         "duration" : -1,
-        "value" : -500
+        "value" : -1000
     }
+   
 
 
 
