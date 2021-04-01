@@ -4,6 +4,7 @@
         "description" : "Vous avez répondu correctement à une question de Dimassi, c'est très bien.",
         "type_var" : "MONEY",
         "duration" : -1,
+        "op":"ADD",
         "value" : 1000
     },
     "_QUESTIONBIO" : {
@@ -11,13 +12,15 @@
         "description" : "Un bio pose une question, vous êtes ralentie",
         "type_var" : "DELIVERY_TIME",
         "duration" : 60,
+        "op" : "MULTIPLY",
         "value" : 0.5
     },
     "_DESCENTE" : {
         "name" : "Descente du Fisc",
         "description" : "Le Fisc vous rattrape, vous payer des impôts",
-        "type_var" : "TAXE",
+        "type_var" : "RACKET",
         "duration" : -1,
+        "op" : "MULTIPLY",
         "value" : -1
     },
     "_MAUVAISEREPONSE" : {
@@ -25,6 +28,7 @@
         "description" : "Vous n'avez pas répondu correctement à une question de Dimassi, \n vous êtes une grosse merde.",
         "type_var" : "MONEY",
         "duration" : -1,
+        "op" : "MULTIPLY",
         "value" : -1000
     }
    
