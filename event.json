@@ -30,8 +30,24 @@
         "duration" : -1,
         "op" : "ADD",
         "value" : -1000
+    },
+    "_BOB" : {
+        "name" : "Bob stylé",
+        "description" : "Vous avez un bob stylé vous gagnez plein de pourboires",
+        "type_var" : "CLICK_AMOUNT",
+        "duration" : 30,
+        "op" : "MULTIPLY",
+        "value" : 2
+    },
+    "_SUPERBIKE" : {
+        "name" : "Super Bike",
+        "description" : "Vous avez trouvé un super vélo sans cadenas, vous le peta \n ainsi vos commandes s'accélères !",
+        "type_var" : "DELIVERY_TIME",
+        "duration" : 0.1,
+        "op" : "MULTIPLY",
+        "value" : 2
     }
-   
+
 
 
 

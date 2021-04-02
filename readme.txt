@@ -45,3 +45,21 @@ Comment créer un nouvelle objet :
 Note : Nous pouvons en ajouter de nouveau personnalisé
 -> duration : la durée de la compétence(skill),mettre -1 si instantanée
 -> cooldown : la durée de recharge de la compétence (mettre -1 si pas de recharge)
+
+
+Comment créer un event :
+    "_BONNEREPONSE" : {
+        "name" : "Bonne réponse",
+        "description" : "Vous avez répondu correctement à une question de Dimassi, c'est très bien.",
+        "type_var" : "MONEY",
+        "duration" : -1,
+        "op":"ADD",
+        "value" : 1000
+    },
+
+Les variables sont les mêmes que pour les items plus haut à l'exeption de type_var ou deux nouveau types sont 
+disponibles :
+- TAXE => Déclenche les impôts et prélèvent au joueur de l'argent : mettre -1 à duration et value
+- MONEY => Ajoute de l'argent (ou en soustrait) au joueur : mettre -1 à duration.
+
+duration = -1 effet permanent (déconseillé) à l'exeption des effets ci dessus.
