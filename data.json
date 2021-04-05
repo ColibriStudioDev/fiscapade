@@ -56,6 +56,17 @@
   "value" : -1
 },
 {
+  "tag" : "_2TH",
+  "name" : "Briquet 2TH fanboy",
+  "description" : "Le briquet du fragile",
+  "price" : 2000,
+  "type" : "BUFFER",
+  "type_var" : "DELIVERY_AMOUNT",
+  "op": "ADD",
+  "value" : 50,
+  "maxLevel" : 1
+},
+{
   "tag" : "_VELO",
   "name" : "Le biike",
   "description" : "Un vélo electrique pour aller vite, vroum",
