@@ -96,7 +96,7 @@
   "type" : "SKILL",
   "type_skill" : "STOCK_MARKET",
   "duration": -1,
-  "cooldown" : 50,
+  "cooldown" : 10,
   "value" : 10
 },
 {
@@ -129,7 +129,7 @@
   "type" : "SKILL",
   "type_skill" : "STOCK_MARKET",
   "duration": -1,
-  "cooldown" : 30,
+  "cooldown" : 5,
   "value" : 100
 },
 {
